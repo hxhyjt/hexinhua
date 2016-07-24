@@ -1,385 +1,657 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-	<title>person</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/index.css">
-	<script src="js/jquery.min.js"></script>
-	<script src="js/index.js"></script>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>个人站</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
-<body>	
-	<div class="site-header container animated fadeInDown">
-		<div class="header-wrapper">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="site-branding">
-						<a href="#">
-						<img src="img/logo1.png" alt=""></a>
-					</div>
-				</div>
-				<a href="#" class="toggle-nav hidden-md hidden-lg">
-					<i class="fa fa-bars"></i>
-				</a>
-				<div class="col-md-8">
-					<nav id="nav" class="main-navigation hidden-xs hidden-sm">
-						<ul class="main-menu">
-							<li><a class="show-1 active homebutton" href="#">首页</a></li>
-							<li><a class="show-2 aboutbutton" href="#">我的技能</a></li>
-							<li><a class="show-3 projectbutton" href="#">作品展示</a></li>
-							<li><a class="show-5 contactbutton" href="#">联系</a></li>
-						</ul>
-					</nav>
-					<nav class="main-navigation menu-responsive hidden-md hidden-lg">
-						<ul class="main-menu mini-menu">
-							<li><a class="show-1 active homebutton" href="#">首页</a></li>
-							<li><a class="show-2 aboutbutton" href="#">我的技能</a></li>
-							<li><a class="show-3 projectbutton" href="#">作品展示</a></li>
-							<li><a class="show-5 contactbutton" href="#">联系</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- container-->
-	<div id="menu-container">
-		<div id="menu-1" class="homepage home-section container">
-			<div class="home-projects">
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<img src="img/b4.png" alt="" class="animated fadeInUp">
-					</div>
-					<div class="project-home-holder col-md-6 col-sm-12">
-						<div class="row">
-							<div class="col-md-12 col-sm-12">
-								<div class="project-item one animated fadeInRight projectnew">
-									<div class="lizhi">
-							             <h1>MY DECLARATION OF SELF-HELP</h1>
-							             <h3>Regardless of when you started, it is important to start after not stop.<br>Whether you at what time the end, it is important not to regret the end</h3>
-						            </div>
-								</div>
-							</div>
-							<!-- <div class="col-md-6 col-sm-6">
-								<div class="project-item one animated fadeInRight">
-									<div class="lizhi">
-							             <h1>MY DECLARATION OF SELF-HELP</h1>
-							             <h3>Regardless of when you started, it is important to start after not stop.<br>Whether you at what time the end, it is important not to regret the end</h3>
-						            </div>
-								</div>
-							</div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div id="menu-2" class="content about-section container">
-			<div class="our-story">
-				<div class="story-bg animated fadeIn"></div>
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
-						<div class="inner-story animated fadeInRight text-center">
-							<h2>ABOUT US</h2>
-							<p>Cras placerat, est ac sollicitudin laoreet, ante enim egestas lorem, vel auctor nibh massa sit amet lacus. Cras mollis tellus id sollicitudin vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam gravida arcu</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="our-offers">
-				<div class="offer-bg animated fadeIn"></div>
-				<div class="offer-header">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 text-center">
-							<div class="offer-title animated fadeInDown">
-								<h2>MY PROJECT</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="offer-holder">
-						<div class="col-md-6">
-							<div class="offer-item offer-1 animated fadeInLeft">
-								<div class="figure">
-									<img src="img/a1.jpg" alt="">
-								</div class="figure">
-								<div class="offer-content text-center">
-									<h4>HAPPY WORKING WITH US</h4>
-									<p>Sed sagittis nunc vel tellus ultricies auctor. Class aptent taciti sociosqu ad litora torquent per conubia , per inceptos himenaeos. Integer eleifend tellu.</p>
-									<span class="offer-left"><i></i></span>
-									<span class="offer-right"><i></i></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="offer-item offer-2 animated fadeInRight">
-								<div class="figure">
-									<img src="img/a2.jpg" alt="">
-								</div class="figure">
-								<div class="offer-content text-center">
-									<h4>OUR COMPANY BACKGROUND</h4>
-									<p>Sed sagittis nunc vel tellus ultricies auctor. Class aptent taciti sociosqu ad litora torquent per conubia , per inceptos himenaeos. Integer eleifend tellu.</p>
-									<span class="offer-left"><i></i></span>
-									<span class="offer-right"><i></i></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+<body>
 
-		<div id="menu-3" class="content project-section container">
-			<div class="projects-header">
-				<h2 class="animated fadeInRight">My projects</h2>
-				<p class="animated fadeInLeft">Sed sagittis nunc vel tellus ultricies auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer eleifend tellus ut porttitor pharetra.</p>
-			</div>
-			<div class="projects-holder">
-				<div class="row">
-					<div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
-						<div class="project-item">
-							<img src="img/p1.png" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">MY SITE</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
-						<div class="project-item">
-							<img src="img/p2.png" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Two</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
-						<div class="project-item">
-							<img src="img/p3.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Three</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
-						<div class="project-item animated umScaleIn">
-							<img src="img/4.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Four</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-5 animated umScaleIn">
-							<img src="img/5.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Five</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-6 animated umScaleIn">
-							<img src="img/6.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Six</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-7 animated umScaleIn">
-							<img src="img/7.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Seven</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-7 animated umScaleIn">
-							<img src="img/7.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Seven</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-7 animated umScaleIn">
-							<img src="img/7.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Seven</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="row">
-					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
-						<div class="project-item animated umScaleIn">
-							<img src="img/4.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Four</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-5 animated umScaleIn">
-							<img src="img/5.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Five</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-6 animated umScaleIn">
-							<img src="img/6.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Six</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-7 animated umScaleIn">
-							<img src="img/7.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Seven</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-7 animated umScaleIn">
-							<img src="img/7.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Seven</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="project-item p-7 animated umScaleIn">
-							<img src="img/7.jpg" alt="">
-							<div class="overlay1"></div>
-							<div class="overlay">
-								<h4><a href="#">Project Seven</a></h4>
-								<div class="xian"></div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-			</div>
-		</div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-		<div id="menu-5" class="content contact-section container">
-			<div class="contact-header text-center">
-				<h2 class="animated fadeInLeft">Get in Touch</h2>
-				<p class="animated fadeInRight info">Feel free to talk to us about anything.</p>
-				<!-- <ul class="contact-social animated fadeInUp">
-					<li>
-						<a href="javascript:;"><img src="img/icon-mail.png" alt=""></a>
-					</li>
-					<li>
-						<a href="javascript:;"><img src="img/icon-phone.png" alt=""></a>
-					</li>
-				</ul>
-				<ul class="contact-social animated fadeInUp">
-					<li>
-						<a href="javascript:;">1874836418@qq.com</a>
-					</li>
-					<li>
-						<a href="javascript:;">18334797898</a>
-					</li>
-				</ul> -->
-			</div>
-			<div class="contact-holder">
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-			            <div class="googlemap-wrapper animated fadeInLeft">
-                            <div id="map_canvas" class="map-canvas">
-                            	<img src="img/push_contact.png" alt="">
-                            </div>
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">主页</a></li>
+            <li><a class="smoothscroll" href="#about">关于我</a></li>
+	         <li><a class="smoothscroll" href="#resume">技能展示</a></li>
+            <li><a class="smoothscroll" href="#portfolio">个人作品</a></li>
+           <!--  <li><a class="smoothscroll" href="#testimonials">荣誉</a></li> -->
+            <li><a class="smoothscroll" href="#contact">联系我</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm XinHua He.</h1>
+            <h3>I'm a excellent<span> Front End Engineer</span>,having strong ability to work,creating the toppest value. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="##"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="##"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="##"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="##"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="##"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="##"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="##"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/aboutme.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>关于我</h2>
+
+            <p>
+              工作中，一个严谨认真的我。
+              <br>
+                   为适应社会发展的需求，我认真学习各种专业知识，发挥自己的特长，挖掘自身的潜力，从而逐步提高了自己的学习能力和分析处理问题的能力以及一定的协调组织和管理能力。在学习方面，我乐于尝试新东西，总会对陌生的知识产生好奇和兴趣，都会总结一下学习经验。一份耕耘一分收获，我总会对自己有信心，没有什么事是不可能的。
+              <br>生活中，一个积极阳光的我。
+              <br>健身给我一个快乐的心态，摆脱工作的压力，变成生活的动力。台球给我一种精神的享受，抛去生活的烦恼，转成前进的冲劲。
+
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>详细信息</h2>
+                  <p class="address">
+						   <span>贺新华</span><br>
+						   <span>现居地：<br>
+						         上海市
+                     </span><br>
+						   <span>18334797921</span><br>
+                     <span>627795822@qq.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>技能展示</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p> 
+DIV+CSS是我的看家本领；JavaScript是我的特长；jQuery是我的工具；
+可以把Photoshop、Sublime text、Web Storm等常用网页设计制作软件玩于股掌；
+对HTML5与CSS3特别倾心，善于运用Angular,BootStrap等框架；有一定的审美能力，可与UI很好的沟通。
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Angular</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>BootStrap</em></li>
+						<li><span class="bar-expand wordpress"></span><em>JavaScript</em></li>
+						<li><span class="bar-expand css"></span><em>CSS3</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/1.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>仿天猫</h5>
+                              <p>上天猫就够了</p>
+          					   </div>
                         </div>
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<div class="contact-form animated fadeInUp">
-							<!-- <h4>Send us a Message</h4> -->
-							<div class="row">
-								<div class="col-md-6">
-									<input type="text" name="name" placeholder="Name*">
-								</div>
-								<div class="col-md-6">
-									<input type="email" name="email" placeholder="Email*">
-								</div>
-								<div class="col-md-12">
-									<input type="text" name="Telephone" placeholder="Telephone*">
-								</div>
-								<div class="col-md-12">
-									<textarea name="message" id="message" cols="30" rows="10" placeholder="message...*"></textarea>
-								</div>
-								<div class="col-md-12">
-									<a href="#" class="message-button">Submit Message*</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
 
-<!-- foot -->
-	<footer class="site-footer container text-center">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="main-footer">
-					<!-- <div class="social">
-						<ul class="main-menu">
-							<li><a class="show-1 active homebutton" href="#">About Me</a></li>
-						    <li><a class="show-2 aboutbutton" href="#">Skills</a></li>
-						    <li><a class="show-3 projectbutton" href="#">Projects</a></li>
-						    <li><a class="show-5 contactbutton" href="#">Contact</a></li>
-						</ul>
-						
-					</div> -->
-				</div>
-			</div>
-		</div>
-		
-	</footer>
-	<!-- 外边框-->
-	<span class="border-top"></span>
-	<span class="border-left"></span>
-	<span class="border-right"></span>
-	<span class="border-bottom"></span>
-	<span class="shape-1"></span>
-	<span class="shape-2"></span>
+                  </div>
+          		</div> <!-- item end -->
 
-	
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/coffee.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>百度未来商店</h5>
+                              <p>改变一下，开启未来</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/judah.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>苹果</h5>
+                              <p>引领时尚的美</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/into-the-light.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>百度舆情</h5>
+                              <p>灵动轻挑的美</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/farmerboy.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>小新画板</h5>
+                              <p>用心描绘世界</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/girl.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>备忘录</h5>
+                              <p>做你身边的记忆小能手</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/origami.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>北京同仁堂</h5>
+                              <p>良心药，放心药</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>阿买提</h5>
+                              <p>美味骏枣的购物网站</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>仿天猫</h4>
+			      <p>利用DIV+CSS+JavaScript进行网页的布局</p>
+               <span class="categories"><i class="fa fa-tag"></i>Jasmine, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href=" https://hxhyjt.github.io/tmall/index.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>百度未来商店</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://hxhyjt.github.io/bdwlsd/index.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>苹果商店</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://hxhyjt.github.io/apple/index.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>百度舆情</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://hxhyjt.github.io/baiduyuqing/index.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>小新画板</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://hxhyjt.github.io/palette/index.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>备忘录</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://hxhyjt.github.io/to-do-list/index.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>北京同仁堂</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://tongrentangkj.com/">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>阿买提</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://hxhyjt.duapp.com/">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+  <!--  <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><a rel="nofollow" href="##">Host This Template on A2 Hosting.</a></h2>
+            <p>300% Faster Hosting on Their SwiftServer SSDs.</p>
+
+         </div>
+
+         <div class="three columns action">
+
+            <a rel="nofollow" href="##" class="button">Sign Up Now</a>
+
+         </div>
+
+      </div>
+
+   </section> --> <!-- Call-To-Action Section End-->
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">姓名<span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">邮箱<span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">项目</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">信息<span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">提交</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>地址和电话</h4>
+					   <p class="address">
+						   贺新华<br>
+						   现居地：<br>
+						   上海市<br>
+						   <span>18334797921</span>
+					   </p>
+
+				   </div>
+
+               <div class="widget widget_tweets">
+
+                  <h4 class="widget-title">Latest Tweets</h4>
+
+                  <ul id="twitter">
+                     <li>
+                        <span>
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        </span>
+                     </li>
+                  </ul>
+
+		         </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="##"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="##"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="##"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="##"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="##"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="##"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="##"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
+
 </html>
